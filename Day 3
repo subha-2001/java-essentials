@@ -96,7 +96,7 @@ class Main
 			return tax;
 	}
 }
-Output:
+Sample output:
 ENTER YOUR DETAILS
 Enter dob:
 23112001
