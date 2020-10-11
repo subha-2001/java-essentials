@@ -1,0 +1,115 @@
+1)import java.util.Scanner;
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		int marks[]=new int[5];
+		int i;
+		float tot=0,avg;
+		Scanner sc=new Scanner(System.in);
+		for(i=0;i<5;i++)
+		{
+			System.out.println("enter marks of subject"+(i+1)+":");
+			marks[i]=sc.nextInt();
+			tot=tot+marks[i];
+		}
+		sc.close();
+		avg=tot/5;
+		System.out.println("percentage :"+avg);
+		System.out.println("THE GRADE OF THE STUDENT IS:");
+		if(avg>=80)
+		System.out.println("A");
+		else if(avg>=60&&avg>80)
+		System.out.println("B");
+		else if(avg>=40&&avg<60)	
+		System.out.println("C");
+		else if(avg>=30&&avg<40)
+		System.out.println("D");	
+		else if(avg>=20&&avg<10)
+		System.out.println("E-Fail");
+		else
+		System.out.println("invalid");
+		}
+}
+Output:
+enter marks of subject1:
+96
+enter marks of subject2:
+88
+enter marks of subject3:
+77
+enter marks of subject4:
+92
+enter marks of subject5:
+96
+percentage:90.4
+THE GRADE OF THE STUDENT IS:
+A
+
+2)import java.util.Scanner;
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		double t=0;
+		int dob;
+		int age;
+		int mob;
+		double ms;
+		double annsalary;
+		String name;
+		System.out.println("ENTER YOUR DETAILS");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter your dob:");
+		dob=sc.nextInt();
+		System.out.println("enter your month of birth");
+		mob=sc.nextInt();
+		System.out.println("enter your age:");
+		age=sc.nextInt();
+		System.out.println("enter your monthly salary");
+		ms=sc.nextDouble();
+		sc.nextLine();
+		System.out.println("enter your name");        name=sc.nextLine();
+		annsalary=ms*12;
+		t=incometax(annsalary);
+		System.out.println("name:"+name);
+		System.out.println("age:"+age);
+		System.out.println("annual salary:"+annsalary);
+		
+		System.out.println("tax amount:"+t);
+	}
+	static double incometax(double annsalary)
+	{
+			double tax=0;
+			if(annsalary<=2000)
+			tax=0.5;
+			else if(annsalary<=3000)
+			tax=0.4*(annsalary-2000);
+			else if(annsalary<=4000)
+			tax=0.3*(annsalary-3000);
+			else if(annsalary<=5000)
+			tax=0.2*(annsalary-4000);
+			else
+			{
+			tax=(0.1*(annsalary-1000000)+2000000);
+			}
+			return tax;
+	}
+}
+Output:
+ENTER YOUR DETAILS
+Enter dob:
+23112001
+Enter your month of birth:
+11
+enter your age:
+19
+Enter your monthly salary:
+2000
+enter your name:
+subha
+name:subha
+age:19
+annual salary:24000.0
+taxamount:1902400.0
+
