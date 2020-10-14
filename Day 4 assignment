@@ -1,0 +1,59 @@
+2)ARRAY
+import java.util.Scanner;
+public class Odd
+{
+public static void main(String[] args)
+{
+	int n;
+	Scanner s = new Scanner(System.in);
+	int a[] = new int[5];
+	System. out.println( "Enter array elements:");
+	for (int i = 0; i<5; i++)
+	{
+		a[i] = s.nextInt ();
+	}
+	System.out.print ("Odd numbers:");
+	for(int i=0;i<5;i++)
+	{
+		if(a[i]%2!=0)
+		{
+			System.out.print(a[i]+",");
+		}
+	}
+}
+}
+OUTPUT
+Enter array elements:
+55
+22
+33
+99
+100
+Odd numbers:55,33,99,
+3)Sum
+import java.util.Scanner;
+public class array
+{
+public static void main(String[] args)
+{
+	int sum=0;
+	Scanner s = new Scanner(System.in);
+	int a[] = new int[5];
+	System. out.println( "Enter array elements:");
+	for (int i = 0; i<5; i++)
+	{
+		a[i] = s.nextInt ();
+		sum=sum+a[i];
+	}
+	System.out.print ("sum is "+sum);
+}
+}
+Output:
+Enter array elements:
+44
+3
+22
+55
+9
+Sum is 133
+
