@@ -33,9 +33,16 @@ class avengers
 	{
 		int b[]=new int[5];
 		avengers a=new avengers();
+                for(int i=0;i<5;i++)
+                {
 		a.getdetails();
+                }
+                for(int i=0;i<5;i++)
+                {
 		a.displaydetails();
-	}
+           	}
+
+          }
 }
 Output:
 Enter avengers name:
