@@ -1,3 +1,58 @@
+1)AVENGERS
+import java.util.Scanner;
+class avengers 
+{
+	String avengersname;
+	int age;
+	String power;
+	String weapons;
+	String planet;
+	void getdetails()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter avengers name:");
+		avengersname=sc.nextLine();
+		System.out.println("Enter avengers power:");
+		power=sc.nextLine();
+		System.out.println("Enter avengers weapons:");
+		weapons=sc.nextLine();
+		System.out.println("Enter avengers planet:");
+		planet=sc.nextLine();	
+		System.out.println("Enter avengers age:");
+		age=sc.nextInt();
+	}
+	void displaydetails()
+	{
+		System.out.println("\nAVENGERS NAME:"+avengersname);
+	System.out.println("\nAVENGERS AGE:"+age);		
+	System.out.println("\nAVENGERS POWER:"+power);
+	System.out.println("\nAVENGERS WEAPONS:"+weapons);
+	System.out.println("\nAVENGERS PLANET:"+planet);
+	}
+	public static void main(String[] args) 
+	{
+		int b[]=new int[5];
+		avengers a=new avengers();
+		a.getdetails();
+		a.displaydetails();
+	}
+}
+Output:
+Enter avengers name:
+Thor
+Enter avengers power:
+Empathy
+Enter avengers weapons:
+Falconswings
+Enter avengers planet:
+Earth
+Enter avengers age:
+49
+AVENGERS NAME: Thor
+AVENGERS AGE:49
+AVENGERS POWER: Empathy
+AVENGERS WEAPONS:Falconswings
+AVENGERS PLANET: Earth
 2)ARRAY
 import java.util.Scanner;
 public class Odd
