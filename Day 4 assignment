@@ -55,11 +55,73 @@ Enter avengers planet:
 Earth
 Enter avengers age:
 49
+Enter avengers name:
+Thor
+Enter avengers power:
+Empathy
+Enter avengers weapons:
+Falconswings
+Enter avengers planet:
+Earth
+Enter avengers age:
+49
+
+Enter avengers name:
+Thor
+Enter avengers power:
+Empathy
+Enter avengers weapons:
+Falconswings
+Enter avengers planet:
+Earth
+Enter avengers age:
+49
+Enter avengers name:
+Thor
+Enter avengers power:
+Empathy
+Enter avengers weapons:
+Falconswings
+Enter avengers planet:
+Earth
+Enter avengers age:
+49
+Enter avengers name:
+Thor
+Enter avengers power:
+Empathy
+Enter avengers weapons:
+Falconswings
+Enter avengers planet:
+Earth
+Enter avengers age:
+49
 AVENGERS NAME: Thor
 AVENGERS AGE:49
 AVENGERS POWER: Empathy
 AVENGERS WEAPONS:Falconswings
 AVENGERS PLANET: Earth
+AVENGERS NAME: Thor
+AVENGERS AGE:49
+AVENGERS POWER: Empathy
+AVENGERS WEAPONS:Falconswings
+AVENGERS PLANET: Earth
+AVENGERS NAME: Thor
+AVENGERS AGE:49
+AVENGERS POWER: Empathy
+AVENGERS WEAPONS:Falconswings
+AVENGERS PLANET: Earth
+AVENGERS NAME: Thor
+AVENGERS AGE:49
+AVENGERS POWER: Empathy
+AVENGERS WEAPONS:Falconswings
+AVENGERS PLANET: Earth
+AVENGERS NAME: Thor
+AVENGERS AGE:49
+AVENGERS POWER: Empathy
+AVENGERS WEAPONS:Falconswings
+AVENGERS PLANET: Earth
+
 2)ARRAY
 import java.util.Scanner;
 public class Odd
