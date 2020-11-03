@@ -34,3 +34,129 @@ public class Employee {
     System.out.println("Employee Mobile Number:" + mobileNumber);
   }
 }
+2)
+package pack;
+import java.util.Scanner;
+
+public class Doctor
+{
+  String name;
+  String hospitalname;
+  String city;
+  int salary;
+  int mobilenumber;
+  Scanner sc=new Scanner(System.in);
+  void getDetails()
+  {
+    System.out.println("Enter doctorname:");
+    name=sc.nextLine();
+    System.out.println("Enter hospital name:");
+    hospitalname=sc.next();
+    System.out.println("Enter city:");
+    city=sc.next();
+    System.out.println("Enter salary:");
+    salary=sc.nextInt();
+    System.out.println("Enter mobilenumber:");
+    mobilenumber=sc.nextInt();
+    sc.close();
+   }
+   void displayDetails()
+   {
+     System.out.println("Doctor name:"+name);
+     System.out.println("hospital name:"+hospitalname);
+     System.out.println("City name:"+city);
+     System.out.println("salary:"+salary);
+     System.out.println("Mobile number:"+mobilenumber);
+     
+   }
+}
+
+package pack;
+
+import java.util.Scanner;
+public class Engineer 
+{
+  String name;
+  String dept;
+  int salary;int mobilenumber;
+  Scanner sc=new Scanner(System.in);
+  void getDetails()
+  {
+    System.out.println("Enter engineer name:");
+    name=sc.next();
+    System.out.println("Enter your core subj:");
+    dept=sc.next();
+    System.out.println("Enter your salary:");
+    salary=sc.nextInt();
+    System.out.println("Enter your mobilenumber");
+    mobilenumber=sc.nextInt();
+        
+  }
+  void displayDetails()
+  {
+     System.out.println("Engineer name:"+name);
+     System.out.println("core subject:"+dept);
+     System.out.println("salary:"+salary);
+     System.out.println("Mobile number:"+mobilenumber);
+     
+  }
+}
+package pack;
+import java.util.Scanner;
+
+public class Pilot
+{
+  String name;
+  String flightname;
+  String countryname;
+  int salary;int mobilenumber;
+  Scanner sc=new Scanner(System.in);
+  void getDetails()
+  {
+    System.out.println("Enter pilot name:");
+    name=sc.next();
+    System.out.println("Enter your flight name:");
+    flightname=sc.next();
+    System.out.println("Enter country name:");
+    countryname=sc.next();
+    System.out.println("Enter your salary:");
+    salary=sc.nextInt();
+    System.out.println("Enter your mobilenumber");
+    mobilenumber=sc.nextInt();
+        
+  }
+  void displayDetails()
+  {
+     System.out.println("Pilot name:"+name);
+     System.out.println("Flightname:"+flightname);
+     System.out.println("Countryname:"+countryname);
+     System.out.println("salary:"+salary);
+     System.out.println("Mobile number:"+mobilenumber);
+     
+  }
+}
+
+
+package pack;
+
+public class occ
+{
+  public static void main(String[] args)
+  {
+    Doctor d=new Doctor();
+    Engineer e=new Engineer();
+    Pilot p=new Pilot();
+    d.getDetails();
+    d.displayDetails();
+    e.getDetails();
+    e.displayDetails();
+    p.getDetails();
+    p.displayDetails();
+  }
+}
+
+
+   
+  
+
+
